@@ -1,0 +1,23 @@
+<map>
+  <layer>
+    <labelitem>a_hsnmbr</labelitem>
+    <class>
+      <style>
+        <color red="208" green="83" blue="51"/>
+        <outlinecolor blue="38" green="51" red="164"/>
+        <width>0.425196850394</width>
+        <maxscaledenom>10000</maxscaledenom> <!-- Ограничение по масштабу -->
+      </style>
+      <label>
+        <type>truetype</type>
+        <font>regular</font>
+        <size>8.25</size>
+        <color blue="38" green="51" red="164"/>
+        <outlinewidth>3</outlinewidth>
+        <outlinecolor blue="255" green="255" red="255"/>
+        <position>ur</position>
+        <maxscaledenom>10000</maxscaledenom>
+      </label>
+    </class>
+  </layer>
+</map>
