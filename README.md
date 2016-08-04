@@ -1,5 +1,5 @@
-# nextgisweb_demodata
-Demo data for testing and demoing NextGIS software:
+# Testdata
+Test and Demo data for testing and demoing NextGIS software:
 
 * ```connect``` - Connect for QGIS
 * ```fb``` - Formbuilder
