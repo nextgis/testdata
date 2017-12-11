@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="2.14.3-Essen" minimumScale="-4.65661e-10" maximumScale="2e+06" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+<qgis version="2.14.16-Essen" minimumScale="-4.65661e-10" maximumScale="2e+06" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <edittypes>
     <edittype widgetv2type="TextEdit" name="OSM_ID">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
@@ -37,18 +37,18 @@
   </edittypes>
   <renderer-v2 forceraster="0" symbollevels="1" type="RuleRenderer" enableorderby="0">
     <rules key="{0c1a7357-5858-46a0-9caa-5af24043c56f}">
-      <rule filter="HIGHWAY = 'trunk'" key="{318bce03-d552-40b4-8814-3b1ab78ead0d}" symbol="0" label="федерального значения"/>
-      <rule scalemaxdenom="5000000" filter="HIGHWAY = 'secondary'" key="{908bc3d7-7a05-491f-87a0-fe93b2fc1cb7}" symbol="1" label="областного значения"/>
-      <rule scalemaxdenom="1000000" filter="HIGHWAY = 'tertiary'" key="{eb229518-0d87-4a2d-8fcc-20367d0647b5}" symbol="2" label="районного значения"/>
-      <rule scalemaxdenom="50000000" filter="HIGHWAY = 'primary'" key="{4ee4a4e3-b700-4001-98c4-7fa03669685f}" symbol="3" label="регионального значения"/>
+      <rule filter="HIGHWAY = 'trunk'" key="{2566ff20-0013-4bb1-b1d2-808512c78d41}" symbol="0" label="федерального значения"/>
+      <rule scalemaxdenom="50000000" filter="HIGHWAY = 'primary'" key="{9d63de27-3920-47a0-9664-199735bae63a}" symbol="1" label="регионального значения"/>
+      <rule scalemaxdenom="5000000" filter="HIGHWAY = 'secondary'" key="{9e800cf3-66f2-4bd0-ad84-be6131e5f0e3}" symbol="2" label="областного значения"/>
+      <rule scalemaxdenom="1000000" filter="HIGHWAY = 'tertiary'" key="{2200b304-d267-485d-b1db-98c926fa6ccd}" symbol="3" label="районного значения"/>
       <rule scalemaxdenom="50000" filter="HIGHWAY = 'construction'" key="{b4d56269-6c64-40e9-acab-87b8f5d3201a}" symbol="4" label="ремонтируемые"/>
       <rule scalemaxdenom="50000" filter="HIGHWAY = 'crossing'" key="{63a7c8f2-ae7b-40e6-89de-38aecbcabbc2}" symbol="5" label="пешеходные переходы"/>
       <rule scalemaxdenom="50000" filter="HIGHWAY = 'cycleway'" key="{16956f57-0636-46b8-8ceb-f45438635582}" symbol="6" label="велосипедные дорожки"/>
       <rule scalemaxdenom="25000" filter="HIGHWAY = 'footway'" key="{4968c567-ef38-4719-be35-ad7434914138}" symbol="7" label="пешеходные дорожки"/>
       <rule scalemaxdenom="50000" filter="HIGHWAY = 'living_street'" key="{f8d94cd4-066e-455d-89d3-7548a07932d9}" symbol="8" label="отмеченные знаком &quot;жилая зона&quot;"/>
       <rule scalemaxdenom="50000" filter="HIGHWAY = 'path'" key="{48b731d3-4e7a-48df-887a-7dd913aa5265}" symbol="9" label="тропы"/>
-      <rule scalemaxdenom="25000" filter="HIGHWAY = 'pedestrian'" key="{c8911b86-e3ce-4f4c-9a09-5755bb1c7a87}" symbol="10" label="пешеходные аллеи"/>
-      <rule scalemaxdenom="50000" filter="HIGHWAY = 'residential'" key="{69e6bc38-a364-4110-a56b-2db34a1f3266}" symbol="11" label="улицы"/>
+      <rule scalemaxdenom="50000" filter="HIGHWAY = 'residential'" key="{55174901-399c-467e-8fab-e3d8154491f8}" symbol="10" label="улицы"/>
+      <rule scalemaxdenom="25000" filter="HIGHWAY = 'pedestrian'" key="{c8911b86-e3ce-4f4c-9a09-5755bb1c7a87}" symbol="11" label="пешеходные аллеи"/>
       <rule scalemaxdenom="50000" filter="HIGHWAY = 'road'" key="{cb4204e3-a4fd-487e-ac9f-140e79e91c14}" symbol="12" label="неизвестного типа"/>
       <rule scalemaxdenom="50000" filter="HIGHWAY = 'service'" key="{bfbee935-cf79-4004-bf07-db9f8795b8ed}" symbol="13" label="служебные проезды"/>
       <rule scalemaxdenom="50000" filter="HIGHWAY = 'steps'" key="{c612289a-d306-4cb5-8025-3ba1e8bce6ba}" symbol="14" label="лестницы"/>
@@ -77,7 +77,7 @@
           <prop k="use_custom_dash" v="0"/>
           <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
         </layer>
-        <layer pass="0" class="SimpleLine" locked="0">
+        <layer pass="5" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -113,14 +113,14 @@
           <prop k="use_custom_dash" v="0"/>
           <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
         </layer>
-        <layer pass="0" class="SimpleLine" locked="0">
+        <layer pass="4" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="customdash_unit" v="MM"/>
           <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
-          <prop k="line_color" v="255,215,165,255"/>
+          <prop k="line_color" v="239,154,156,255"/>
           <prop k="line_style" v="solid"/>
           <prop k="line_width" v="1"/>
           <prop k="line_width_unit" v="MM"/>
@@ -149,14 +149,14 @@
           <prop k="use_custom_dash" v="0"/>
           <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
         </layer>
-        <layer pass="0" class="SimpleLine" locked="0">
+        <layer pass="1" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="customdash_unit" v="MM"/>
           <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
-          <prop k="line_color" v="239,239,239,255"/>
+          <prop k="line_color" v="255,255,255,255"/>
           <prop k="line_style" v="solid"/>
           <prop k="line_width" v="1"/>
           <prop k="line_width_unit" v="MM"/>
@@ -185,14 +185,14 @@
           <prop k="use_custom_dash" v="0"/>
           <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
         </layer>
-        <layer pass="0" class="SimpleLine" locked="0">
+        <layer pass="1" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="customdash_unit" v="MM"/>
           <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
-          <prop k="line_color" v="255,255,255,255"/>
+          <prop k="line_color" v="239,239,239,255"/>
           <prop k="line_style" v="solid"/>
           <prop k="line_width" v="1"/>
           <prop k="line_width_unit" v="MM"/>
@@ -221,7 +221,7 @@
           <prop k="use_custom_dash" v="0"/>
           <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
         </layer>
-        <layer pass="0" class="SimpleLine" locked="0">
+        <layer pass="1" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -257,7 +257,7 @@
           <prop k="use_custom_dash" v="0"/>
           <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
         </layer>
-        <layer pass="0" class="SimpleLine" locked="0">
+        <layer pass="1" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -293,7 +293,7 @@
           <prop k="use_custom_dash" v="0"/>
           <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
         </layer>
-        <layer pass="0" class="MarkerLine" locked="1">
+        <layer pass="1" class="MarkerLine" locked="1">
           <prop k="interval" v="2"/>
           <prop k="interval_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="interval_unit" v="MM"/>
@@ -346,7 +346,7 @@
           <prop k="use_custom_dash" v="0"/>
           <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
         </layer>
-        <layer pass="0" class="SimpleLine" locked="0">
+        <layer pass="1" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -382,7 +382,7 @@
           <prop k="use_custom_dash" v="0"/>
           <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
         </layer>
-        <layer pass="0" class="SimpleLine" locked="0">
+        <layer pass="1" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -418,7 +418,7 @@
           <prop k="use_custom_dash" v="0"/>
           <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
         </layer>
-        <layer pass="0" class="SimpleLine" locked="0">
+        <layer pass="1" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -454,7 +454,7 @@
           <prop k="use_custom_dash" v="0"/>
           <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
         </layer>
-        <layer pass="0" class="SimpleLine" locked="1">
+        <layer pass="1" class="SimpleLine" locked="1">
           <prop k="capstyle" v="square"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -490,7 +490,7 @@
           <prop k="use_custom_dash" v="0"/>
           <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
         </layer>
-        <layer pass="0" class="SimpleLine" locked="0">
+        <layer pass="1" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -526,14 +526,14 @@
           <prop k="use_custom_dash" v="0"/>
           <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
         </layer>
-        <layer pass="0" class="SimpleLine" locked="0">
+        <layer pass="3" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="customdash_unit" v="MM"/>
           <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
-          <prop k="line_color" v="255,255,181,255"/>
+          <prop k="line_color" v="255,215,165,255"/>
           <prop k="line_style" v="solid"/>
           <prop k="line_width" v="1"/>
           <prop k="line_width_unit" v="MM"/>
@@ -562,14 +562,14 @@
           <prop k="use_custom_dash" v="0"/>
           <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
         </layer>
-        <layer pass="0" class="SimpleLine" locked="0">
+        <layer pass="2" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="customdash_unit" v="MM"/>
           <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
-          <prop k="line_color" v="239,154,156,255"/>
+          <prop k="line_color" v="255,255,181,255"/>
           <prop k="line_style" v="solid"/>
           <prop k="line_width" v="1"/>
           <prop k="line_width_unit" v="MM"/>
@@ -598,7 +598,7 @@
           <prop k="use_custom_dash" v="0"/>
           <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
         </layer>
-        <layer pass="0" class="SimpleLine" locked="0">
+        <layer pass="1" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
           <prop k="customdash" v="4;3"/>
           <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -634,7 +634,7 @@
           <prop k="use_custom_dash" v="0"/>
           <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
         </layer>
-        <layer pass="0" class="SimpleLine" locked="0">
+        <layer pass="1" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -708,7 +708,7 @@
           <prop k="use_custom_dash" v="0"/>
           <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
         </layer>
-        <layer pass="0" class="SimpleLine" locked="0">
+        <layer pass="1" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -777,7 +777,7 @@
     <property key="labeling/fieldName" value="NAME"/>
     <property key="labeling/fitInPolygonOnly" value="false"/>
     <property key="labeling/fontCapitals" value="0"/>
-    <property key="labeling/fontFamily" value="Sans Serif"/>
+    <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
     <property key="labeling/fontItalic" value="false"/>
     <property key="labeling/fontLetterSpacing" value="0"/>
     <property key="labeling/fontLimitPixelSize" value="false"/>
@@ -886,8 +886,8 @@
     <property key="labeling/xOffset" value="0"/>
     <property key="labeling/yOffset" value="0"/>
     <property key="labeling/zIndex" value="0"/>
-    <property key="variableNames" value="_fields_"/>
-    <property key="variableValues" value=""/>
+    <property key="variableNames"/>
+    <property key="variableValues"/>
   </customproperties>
   <blendMode>0</blendMode>
   <featureBlendMode>0</featureBlendMode>
@@ -917,6 +917,7 @@
   <SingleCategoryDiagramRenderer diagramType="Pie">
     <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="2e+06" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
       <fontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
+      <attribute field="" color="#000000" label=""/>
     </DiagramCategory>
   </SingleCategoryDiagramRenderer>
   <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
