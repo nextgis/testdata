@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "trees",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "species": "Ясень", "girth": 23.0, "state": null, "age": null, "height": null, "krone_beg": null, "krone_rads": null, "krone_radw": null, "krone_radn": null, "krone_rade": null, "placement": null, "injury": null, "plant_dt": null, "datetime": null, "report": null, "patronage": null, "osmid": null }, "geometry": { "type": "Point", "coordinates": [ 20.52633333, 54.74816667 ] } },
+{ "type": "Feature", "properties": { "species": "Ясень", "girth": 24.0, "state": null, "age": null, "height": null, "krone_beg": null, "krone_rads": null, "krone_radw": null, "krone_radn": null, "krone_rade": null, "placement": null, "injury": null, "plant_dt": null, "datetime": null, "report": null, "patronage": null, "osmid": null }, "geometry": { "type": "Point", "coordinates": [ 20.52636111, 54.74811111 ] } },
+{ "type": "Feature", "properties": { "species": "Яблоня", "girth": 38.0, "state": null, "age": null, "height": null, "krone_beg": null, "krone_rads": null, "krone_radw": null, "krone_radn": null, "krone_rade": null, "placement": null, "injury": null, "plant_dt": null, "datetime": null, "report": null, "patronage": null, "osmid": null }, "geometry": { "type": "Point", "coordinates": [ 20.52602778, 54.74838889 ] } },
+{ "type": "Feature", "properties": { "species": "Бук", "girth": null, "state": null, "age": null, "height": null, "krone_beg": null, "krone_rads": null, "krone_radw": null, "krone_radn": null, "krone_rade": null, "placement": null, "injury": null, "plant_dt": null, "datetime": null, "report": null, "patronage": null, "osmid": null }, "geometry": { "type": "Point", "coordinates": [ 20.52638889, 54.74827778 ] } },
+{ "type": "Feature", "properties": { "species": "Сосна", "girth": null, "state": null, "age": null, "height": null, "krone_beg": null, "krone_rads": null, "krone_radw": null, "krone_radn": null, "krone_rade": null, "placement": null, "injury": null, "plant_dt": null, "datetime": null, "report": null, "patronage": null, "osmid": null }, "geometry": { "type": "Point", "coordinates": [ 20.52630556, 54.74819444 ] } },
+{ "type": "Feature", "properties": { "species": "Ива", "girth": null, "state": null, "age": null, "height": null, "krone_beg": null, "krone_rads": null, "krone_radw": null, "krone_radn": null, "krone_rade": null, "placement": null, "injury": null, "plant_dt": null, "datetime": null, "report": null, "patronage": null, "osmid": null }, "geometry": { "type": "Point", "coordinates": [ 20.52533333, 54.74722222 ] } }
+]
+}
