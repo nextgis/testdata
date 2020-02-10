@@ -1,9 +1,9 @@
 !table
 !version 300
-!charset Neutral
+!charset WindowsCyrillic
 
 Definition Table
-  Type NATIVE Charset "Neutral"
+  Type NATIVE Charset "WindowsCyrillic"
   Fields 3
     ogc_fid Char (10) ;
     CLCODE Char (10) ;
