@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 
-url_dst = 'http://demo-threedim.staging.nextgis.com'
+url_dst = 'http://demo-threedim.staging.nextgis.com/api'
 ngw_creds = ('administrator', 'admin')
 feature_dst = '/resource/' + '1501' + '/feature/'   #layer id
 new_id = '/33'          #feature id
