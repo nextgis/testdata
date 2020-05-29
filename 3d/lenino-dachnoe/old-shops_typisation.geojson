@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "old-shops_typisation",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "name": "Продукты", "icon": "shop", "color": "#c06c84", "priority": "90", "iPriority": 90 }, "geometry": { "type": "Point", "coordinates": [ 37.677117197137093, 55.628328520190429 ] } },
+{ "type": "Feature", "properties": { "fid": 2, "name": "Овощи-фрукты", "icon": "shop", "color": "#6c5b7b", "priority": "90", "iPriority": 90 }, "geometry": { "type": "Point", "coordinates": [ 37.678266424881755, 55.627920463449861 ] } },
+{ "type": "Feature", "properties": { "fid": 3, "name": "Диета", "icon": "shop", "color": "#c06c84", "priority": "95", "iPriority": 95 }, "geometry": { "type": "Point", "coordinates": [ 37.680398639879691, 55.632266049410987 ] } },
+{ "type": "Feature", "properties": { "fid": 4, "name": "Булочная-Кондитерская", "icon": "shop", "color": "#c06c84", "priority": "20", "iPriority": 20 }, "geometry": { "type": "Point", "coordinates": [ 37.67464527330894, 55.634053108298268 ] } },
+{ "type": "Feature", "properties": { "fid": 5, "name": "Кулинария", "icon": "shop", "color": "#c06c84", "priority": "20", "iPriority": 20 }, "geometry": { "type": "Point", "coordinates": [ 37.672863608912351, 55.629801569669667 ] } },
+{ "type": "Feature", "properties": { "fid": 6, "name": "Табак", "icon": "zoo", "color": "#6c5b7b", "priority": "10", "iPriority": 10 }, "geometry": { "type": "Point", "coordinates": [ 37.680973253752008, 55.629724042130114 ] } }
+]
+}
