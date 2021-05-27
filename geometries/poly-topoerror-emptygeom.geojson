@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "federal_oopt_rd",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "name_ru": "Самурский"}, "geometry": {} },
+{ "type": "Feature", "properties": { "name_ru": "Самурский2"}, "geometry": { "type": "Polygon", "coordinates": [ [ [ 68.180503031575981, 59.776348463260078 ], [ 64.867471913629529, 56.276329671440308 ], [ 73.205434727184709, 55.616601208475522 ], [ 68.180503031575981, 59.776348463260078 ] ] ] } }
+]
+}
