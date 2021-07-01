@@ -1,6 +1,6 @@
 demo dataset for 3d ngw
 
-B3dm - АРМА https://nextgis.ru/data/ngw_3d
+B3dm - АРМА: see NAS
 
 3D resources description
 
