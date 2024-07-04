@@ -1,6 +1,7 @@
 # Testdata
-Test and Demo data for testing and demoing NextGIS software:
+Data for testing and demoing NextGIS software.
 
+* ```3d``` - 3d tilesets, models, layers
 * ```connect``` - Connect for QGIS
 * ```fb``` - Formbuilder
 * ```geometries``` - Test data to produce various NGW warnings
